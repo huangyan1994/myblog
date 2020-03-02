@@ -9,4 +9,10 @@ public class TestController {
 	public String hello() {
 		return "你好！";
 	}
+
+
+	@RequestMapping("/")
+	public String index(){
+		return  "hello world";
+	}
 }
